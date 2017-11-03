@@ -1,4 +1,4 @@
-# Makefile for iii (Comp 40 Assignment 2)
+# Makefile for unblackedges
 # 
 # Includes build rules for sudoku, unblackedges, my_useuarray2, and my_usebit2.
 #
@@ -38,11 +38,6 @@ LDLIBS = -lpnmrdr -lcii40 -lm
 # Collect all .h files in your directory.
 # This way, you can never forget to add
 # a local .h file in your dependencies.
-#
-# This bugs Mark, who dislikes false dependencies, but
-# he agrees with Noah that you'll probably spend hours 
-# debugging if you forget to put .h files in your 
-# dependency list.
 INCLUDES = $(shell echo *.h)
 
 ############### Rules ###############
